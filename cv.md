@@ -24,4 +24,18 @@ I used to work as a teacher of English, as an interpreter in the sphere of aircr
     } else {console.log("Неверный логин")}}
     ```
 
+### Work experience:
+1. 2009-2012 _Private School of English_
+2. 2012-2020 _Aircraft Maintenance Branch of Utair_
+
+### Education and courses:
+1. Tyumen State University  (English Teacher)
+2. Web-technologies: basic level (Stepik school) – _in process_
+3. (New) Responsive Web Design Certification/ JS Algorithms and Data Structures Certification (freecodecamp.org) – _in process_
+4. CS50 (Harward, edx.org) – _in process_
+
+### Level of English:
+Upper-intermediate.
+
+
 ````
