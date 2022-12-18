@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
@@ -44,11 +44,13 @@
       </div>
     </header>
     <main>
-      <div class="container">
+      <div class="container main-container">
       <section class="section" id="profile">
-        <img src="avatar.jpg" alt="My avatar">
-<h1 class="section-title">Natalia Kindruk</h1>
-<p class="section-contents">Web Developer</p>
+        <img class="img" src="./assets/avatar.jpg" alt="My avatar">
+        <div class="profile-title">
+            <h1 class="section-title main-title">Natalia Kindruk</h1>
+            <h2 class="section-contents main-contents">Junior Web Developer</h2>
+        </div>
       </section>
       <section class="section" id="contacts">
         <h2 class="section-title">My Contacts</h2>
@@ -61,7 +63,10 @@
       </section>
       <section class="section" id="summary">
         <h2 class="section-title">About me</h2>
-        <p class="section-contents">I used to work as a teacher of English, as an interpreter in the sphere of aircraft maintenance, an HR specialist. At the moment I don't work because I have to stay at home with a little kid. I have always been interested in programming, even at school where we learnt Turbo Pascal. However, I considered this sphere too complicated for me, but really interesting. I hope to learn more about web-development and Front-End in _RSSchool_.</p>
+        <p class="section-contents">I used to work as a teacher of English, as an interpreter in
+          the sphere of aircraft maintenance, as an HR specialist. At the moment I don't work because
+          I have to stay at home with a little kid. I have always been interested in programming,
+          even at school where we learnt Turbo Pascal. However, I considered this sphere too complicated for me, but really fascinating. I hope to learn more about web-development and Front-End in RSSchool.</p>
     </section>
       <section class="section" id="skills">
         <h2 class="section-title">My skills</h2>
@@ -77,29 +82,29 @@
         <h2 class="section-title">Code example</h2>
         <pre class="section-contents">
           <code>
-            function myFunction(login)
-{
-    if (login == "admin") {
-        console.log("Администрирование, Операции, Статистика, Роли.");
+function myFunction(login) {
+  if (login == "admin") {
+    console.log("Администрирование, 
+        Операции, Статистика, Роли.");
     } else if (login == "support") {
         console.log("Операции, Статистика.");
     } else if (login == "user") {
         console.log("Статистика.");
-    } else {console.log("Неверный логин")}
-          </code>
+    } else {console.log("Неверный логин")
+}          </code>
         </pre>
       </section>
       <section class="section" id="courses">
         <h2 class="section-title">My courses</h2>
         <ul class="section-contents">
-          <li> Web-technologies: basic level (Stepik school) – _in process_</li>
-          <li>(New) Responsive Web Design Certification/ JS Algorithms and Data Structures Certification (freecodecamp.org) – _in process_</li>
-          <li>CS50 (Harward, edx.org) – _in process_</li>
+          <li> Web-technologies: basic level (Stepik school)</li>
+          <li>(New) Responsive Web Design Certification/ JS Algorithms and Data Structures Certification (freecodecamp.org) – <i>in process</i></li>
+          <li>CS50 (Harward, edx.org) – <i>in process</i></li>
         </ul>
       </section>
       <section class="section" id="projects">
           <h2 class="section-title">My projects</h2>
-          <p class="section-contents">!!!!LINK!!!!</p>
+          <p class="section-contents"> <a class="link" href=https://Veresk2n.github.io/rsschool-cv>https://Veresk2n.github.io/rsschool-cv/</a></p>
       </section>
       <section class="section" id="education">
         <h2 class="section-title">My education</h2>
@@ -112,8 +117,10 @@
     </div>
   </main>
     <footer class="footer">
-      <div class="container">
-      <p>text</p1>
+      <div class="container footer-container">
+        <p><a class="link" href="https://github.com/Veresk2n">My github</a></p>
+        <h2>2022</h2>
+        <a href="https://rs.school/js/"><img class="rs-logo" src="./assets/rs_school_js.svg" alt="rss_logo"></a>
       </div>
     </footer>
 </body>
