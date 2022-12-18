@@ -6,11 +6,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Curriculum Vitae</h1>
-    <h2>Natalia Kindruk</h2>
-    <p>text</p>
-    <img src="avatar.jpg" alt="My avatar" />
-  </body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+      <section class="section" id="profile">
+        <img src="avatar.jpg" alt="My avatar">
+<h1 class="section-title">Natalia Kindruk</h1>
+<p class="section-contents">Web Developer</p>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">My Contacts</h2>
+        <ul class="section-contents">
+          <li>Email: veresk2n@mail.ru</li>
+          <li>Git: @Veresk2n</li>
+          <li>Discord: Наталья Kind(@Veresk2n)</li>
+          <li>Telegram: @Veresk2n</li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">About me</h2>
+        <p class="section-contents">I used to work as a teacher of English, as an interpreter in the sphere of aircraft maintenance, an HR specialist. At the moment I don't work because I have to stay at home with a little kid. I have always been interested in programming, even at school where we learnt Turbo Pascal. However, I considered this sphere too complicated for me, but really interesting. I hope to learn more about web-development and Front-End in _RSSchool_.</p>
+    </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">My skills</h2>
+        <ul class="section-contents">
+          <li>Microsoft Office</li>
+          <li>HTML (base level)</li>
+          <li>CSS (base level)</li>
+          <li>Figma (base level)</li>
+          <li>Java Script (base level)</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code example</h2>
+        <pre class="section-contents">
+          <code>
+            function myFunction(login)
+{
+    if (login == "admin") {
+        console.log("Администрирование, Операции, Статистика, Роли.");
+    } else if (login == "support") {
+        console.log("Операции, Статистика.");
+    } else if (login == "user") {
+        console.log("Статистика.");
+    } else {console.log("Неверный логин")}
+          </code>
+        </pre>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">My courses</h2>
+        <ul class="section-contents">
+          <li> Web-technologies: basic level (Stepik school) – _in process_</li>
+          <li>(New) Responsive Web Design Certification/ JS Algorithms and Data Structures Certification (freecodecamp.org) – _in process_</li>
+          <li>CS50 (Harward, edx.org) – _in process_</li>
+        </ul>
+      </section>
+      <section class="section" id="projects">
+          <h2 class="section-title">My projects</h2>
+          <p class="section-contents">!!!!LINK!!!!</p>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">My education</h2>
+        <p class="section-contents">2009 - Tyumen State University (English Teacher)</p>
+    </section>
+    <section class="section" id="english">
+      <h2 class="section-title">My level of English</h2>
+      <p class="section-contents">Upper-intermediate</p>
+  </section>
+    </div>
+  </main>
+    <footer class="footer">
+      <div class="container">
+      <p>text</p1>
+      </div>
+    </footer>
+</body>
 </html>
