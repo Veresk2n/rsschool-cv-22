@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Veresk2n.github.io/rsschool-cv/
